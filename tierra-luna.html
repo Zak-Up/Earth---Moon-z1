@@ -11,13 +11,13 @@
 <body class="body">
     <a class="linkgradient" href="·">ZAKY UP &copy;</a>
 
-                          <!-- CSS -->
+                        <!-- CSS -->
 
     <style>
 
         
         .body{
-            background: linear-gradient(to top right, green, blue );
+            background: linear-gradient(to top right, rgb(14, 9, 94), rgb(0, 0, 0) );
         }
 
         .linkgradient{
@@ -33,7 +33,7 @@
 
     </style>
 
-                          <!-- JavaScript -->
+                        <!-- JavaScript -->
 
     <script>
         function preload(){
@@ -43,7 +43,7 @@
         }
 
         function setup(){
-            createCanvas(400, 450, WEBGL);
+            createCanvas(1500, 450, WEBGL);
         }
 
         function draw(){
@@ -53,7 +53,7 @@
             noStroke()//No dibuja mallas de las esferas
 
             texture(textura_fondo_estrellas)
-            sphere(800)
+            sphere(1200)
 
             for ( let i = 0; i < 3; i++) {
                 directionalLight(
